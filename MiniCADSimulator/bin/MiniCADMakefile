@@ -1,0 +1,7 @@
+build:
+	javac -g *.java
+	javac -g shapes/*.java
+
+clean:
+	rm *.class
+	rm shapes/*.class
